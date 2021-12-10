@@ -1,0 +1,40 @@
+*{
+    margin : 0px ;
+    padding : 0px ;
+}
+.first
+{
+    background-image : url("cloud.gif") ; 
+    background-image : url("cloud.gif") ; 
+    background-image : url("cloud.gif") ; 
+    background-image: radial-gradient(url("cloud.gif"));
+    height : 650px ;
+    background-size : cover ;
+    background-repeat: no-repeat;
+}
+.second 
+{
+    background-color: rgba(8, 255, 255, 0.3);
+    height : 500px ;
+    width : 400px ;
+    top : 12% ;
+    left : 33% ;
+    position: relative;
+    border-radius : 20px 20px ;
+}
+.second h1 {
+    padding: 20px ;
+    text-align : center ;
+    text-transform: uppercase;
+    color : hotpink ;
+    text-shadow: 3px 3px 3px black ;
+}
+.second label {
+    padding: 5px ;
+    font-size : 20px ;
+    text-transform: uppercase;
+}
+.second input {
+     padding: 10px ;
+     border:3px ;
+}
